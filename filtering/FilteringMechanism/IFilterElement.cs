@@ -1,6 +1,6 @@
 ﻿using System.Linq.Expressions;
 
-namespace filtering
+namespace FilteringMechanism
 {
     public interface IFilterElement
     {

@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29001.49
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "filtering", "filtering\filtering.csproj", "{2AB24C9D-9E03-4C4D-BC6D-3ABF98C74B8E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "filtering", "filtering\filtering.csproj", "{2AB24C9D-9E03-4C4D-BC6D-3ABF98C74B8E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FilteringMechanism", "FilteringMechanism\FilteringMechanism.csproj", "{C2BA3A81-34CC-4AD1-BEBE-9156A5D1D5EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Filtering.Tests", "Filtering.Tests\Filtering.Tests.csproj", "{1642249B-9CB8-4EAA-8F5A-14E8A2B8F3A1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{2AB24C9D-9E03-4C4D-BC6D-3ABF98C74B8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2AB24C9D-9E03-4C4D-BC6D-3ABF98C74B8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2AB24C9D-9E03-4C4D-BC6D-3ABF98C74B8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2BA3A81-34CC-4AD1-BEBE-9156A5D1D5EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2BA3A81-34CC-4AD1-BEBE-9156A5D1D5EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2BA3A81-34CC-4AD1-BEBE-9156A5D1D5EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2BA3A81-34CC-4AD1-BEBE-9156A5D1D5EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1642249B-9CB8-4EAA-8F5A-14E8A2B8F3A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1642249B-9CB8-4EAA-8F5A-14E8A2B8F3A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1642249B-9CB8-4EAA-8F5A-14E8A2B8F3A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1642249B-9CB8-4EAA-8F5A-14E8A2B8F3A1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

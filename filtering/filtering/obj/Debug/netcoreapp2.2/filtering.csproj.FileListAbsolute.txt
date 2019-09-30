@@ -9,3 +9,6 @@ C:\Mentoring\GitHub\App\filtering\filtering\filtering\obj\Debug\netcoreapp2.2\fi
 C:\Mentoring\GitHub\App\filtering\filtering\filtering\obj\Debug\netcoreapp2.2\filtering.AssemblyInfo.cs
 C:\Mentoring\GitHub\App\filtering\filtering\filtering\obj\Debug\netcoreapp2.2\filtering.dll
 C:\Mentoring\GitHub\App\filtering\filtering\filtering\obj\Debug\netcoreapp2.2\filtering.pdb
+C:\Mentoring\GitHub\App\filtering\filtering\filtering\bin\Debug\netcoreapp2.2\FilteringMechanism.dll
+C:\Mentoring\GitHub\App\filtering\filtering\filtering\bin\Debug\netcoreapp2.2\FilteringMechanism.pdb
+C:\Mentoring\GitHub\App\filtering\filtering\filtering\obj\Debug\netcoreapp2.2\filtering.csproj.CopyComplete

@@ -1,0 +1,128 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Mentoring\\GitHub\\App\\filtering\\filtering\\Filtering.Tests\\Filtering.Tests.csproj": {}
+  },
+  "projects": {
+    "C:\\Mentoring\\GitHub\\App\\filtering\\filtering\\Filtering.Tests\\Filtering.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Mentoring\\GitHub\\App\\filtering\\filtering\\Filtering.Tests\\Filtering.Tests.csproj",
+        "projectName": "Filtering.Tests",
+        "projectPath": "C:\\Mentoring\\GitHub\\App\\filtering\\filtering\\Filtering.Tests\\Filtering.Tests.csproj",
+        "packagesPath": "C:\\Users\\brydag\\.nuget\\packages\\",
+        "outputPath": "C:\\Mentoring\\GitHub\\App\\filtering\\filtering\\Filtering.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\brydag\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Mentoring\\GitHub\\App\\filtering\\filtering\\FilteringMechanism\\FilteringMechanism.csproj": {
+                "projectPath": "C:\\Mentoring\\GitHub\\App\\filtering\\filtering\\FilteringMechanism\\FilteringMechanism.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[1.4.0, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[1.4.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.0.1, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Mentoring\\GitHub\\App\\filtering\\filtering\\FilteringMechanism\\FilteringMechanism.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Mentoring\\GitHub\\App\\filtering\\filtering\\FilteringMechanism\\FilteringMechanism.csproj",
+        "projectName": "FilteringMechanism",
+        "projectPath": "C:\\Mentoring\\GitHub\\App\\filtering\\filtering\\FilteringMechanism\\FilteringMechanism.csproj",
+        "packagesPath": "C:\\Users\\brydag\\.nuget\\packages\\",
+        "outputPath": "C:\\Mentoring\\GitHub\\App\\filtering\\filtering\\FilteringMechanism\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\brydag\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

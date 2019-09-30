@@ -207,6 +207,16 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
+      },
+      "FilteringMechanism/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/FilteringMechanism.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FilteringMechanism.dll": {}
+        }
       }
     }
   },
@@ -678,10 +688,16 @@
         "netstandard.library.2.0.3.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
+    },
+    "FilteringMechanism/1.0.0": {
+      "type": "project",
+      "path": "../FilteringMechanism/FilteringMechanism.csproj",
+      "msbuildProject": "../FilteringMechanism/FilteringMechanism.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.2": [
+      "FilteringMechanism >= 1.0.0",
       "Microsoft.NETCore.App >= 2.2.0"
     ]
   },
@@ -714,7 +730,11 @@
       },
       "frameworks": {
         "netcoreapp2.2": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Mentoring\\GitHub\\App\\filtering\\filtering\\FilteringMechanism\\FilteringMechanism.csproj": {
+              "projectPath": "C:\\Mentoring\\GitHub\\App\\filtering\\filtering\\FilteringMechanism\\FilteringMechanism.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

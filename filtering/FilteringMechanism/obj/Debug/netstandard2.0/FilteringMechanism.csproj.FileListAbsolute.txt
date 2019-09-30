@@ -1,0 +1,9 @@
+C:\Mentoring\GitHub\App\filtering\filtering\FilteringMechanism\bin\Debug\netstandard2.0\FilteringMechanism.deps.json
+C:\Mentoring\GitHub\App\filtering\filtering\FilteringMechanism\bin\Debug\netstandard2.0\FilteringMechanism.dll
+C:\Mentoring\GitHub\App\filtering\filtering\FilteringMechanism\bin\Debug\netstandard2.0\FilteringMechanism.pdb
+C:\Mentoring\GitHub\App\filtering\filtering\FilteringMechanism\obj\Debug\netstandard2.0\FilteringMechanism.csproj.CoreCompileInputs.cache
+C:\Mentoring\GitHub\App\filtering\filtering\FilteringMechanism\obj\Debug\netstandard2.0\FilteringMechanism.AssemblyInfoInputs.cache
+C:\Mentoring\GitHub\App\filtering\filtering\FilteringMechanism\obj\Debug\netstandard2.0\FilteringMechanism.AssemblyInfo.cs
+C:\Mentoring\GitHub\App\filtering\filtering\FilteringMechanism\obj\Debug\netstandard2.0\FilteringMechanism.dll
+C:\Mentoring\GitHub\App\filtering\filtering\FilteringMechanism\obj\Debug\netstandard2.0\FilteringMechanism.pdb
+C:\Mentoring\GitHub\App\filtering\filtering\FilteringMechanism\obj\Debug\netstandard2.0\FilteringMechanism.csprojAssemblyReference.cache

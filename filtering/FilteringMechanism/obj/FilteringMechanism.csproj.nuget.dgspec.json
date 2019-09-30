@@ -1,0 +1,60 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Mentoring\\GitHub\\App\\filtering\\filtering\\FilteringMechanism\\FilteringMechanism.csproj": {}
+  },
+  "projects": {
+    "C:\\Mentoring\\GitHub\\App\\filtering\\filtering\\FilteringMechanism\\FilteringMechanism.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Mentoring\\GitHub\\App\\filtering\\filtering\\FilteringMechanism\\FilteringMechanism.csproj",
+        "projectName": "FilteringMechanism",
+        "projectPath": "C:\\Mentoring\\GitHub\\App\\filtering\\filtering\\FilteringMechanism\\FilteringMechanism.csproj",
+        "packagesPath": "C:\\Users\\brydag\\.nuget\\packages\\",
+        "outputPath": "C:\\Mentoring\\GitHub\\App\\filtering\\filtering\\FilteringMechanism\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\brydag\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,29 @@
+﻿using System;
+using System.Linq.Expressions;
+using filtering;
+
+namespace FilteringMechanism.FilterOperatorsExtensions
+{
+    public class TrimDecorator : FilteringOperatorDecorator
+    {
+        public TrimDecorator(IFilteringOperator filteringOperator) : base(filteringOperator)
+        {
+        }
+
+        public override Expression CreateExpression(Expression left, Expression right)
+        {
+            const string methodName = "Trim";
+            var methodInfo = left.Type.GetMethod(methodName, System.Type.EmptyTypes);
+
+            if (methodInfo == null)
+            {
+                throw new ArgumentException(methodName, left.Type.Name);
+            }
+
+            var toLowerLeft = Expression.Call(left, methodInfo);     // czy zalozeniem jest ze zawsze operacje robimy na obu stronach
+            var toLowerRight = Expression.Call(right, methodInfo);
+
+            return Operator.CreateExpression(toLowerLeft, toLowerRight);
+        }
+    }
+}

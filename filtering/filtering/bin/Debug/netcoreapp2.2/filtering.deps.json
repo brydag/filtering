@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v2.2": {
       "filtering/1.0.0": {
+        "dependencies": {
+          "FilteringMechanism": "1.0.0"
+        },
         "runtime": {
           "filtering.dll": {}
+        }
+      },
+      "FilteringMechanism/1.0.0": {
+        "runtime": {
+          "FilteringMechanism.dll": {}
         }
       }
     }
   },
   "libraries": {
     "filtering/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FilteringMechanism/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
