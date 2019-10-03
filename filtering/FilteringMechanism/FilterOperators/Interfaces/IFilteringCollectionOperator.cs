@@ -1,6 +1,6 @@
 ﻿using System.Linq.Expressions;
 
-namespace FilteringMechanism.FilterOperators
+namespace FilteringMechanism.FilterOperators.Interfaces
 {
     public interface IFilteringCollectionOperator
     {

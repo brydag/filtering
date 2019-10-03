@@ -32,6 +32,9 @@
             "projectReferences": {
               "C:\\Mentoring\\GitHub\\App\\filtering\\filtering\\FilteringMechanism\\FilteringMechanism.csproj": {
                 "projectPath": "C:\\Mentoring\\GitHub\\App\\filtering\\filtering\\FilteringMechanism\\FilteringMechanism.csproj"
+              },
+              "C:\\Mentoring\\GitHub\\App\\filtering\\filtering\\filtering\\filtering.csproj": {
+                "projectPath": "C:\\Mentoring\\GitHub\\App\\filtering\\filtering\\filtering\\filtering.csproj"
               }
             }
           }
@@ -113,6 +116,62 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Mentoring\\GitHub\\App\\filtering\\filtering\\filtering\\filtering.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Mentoring\\GitHub\\App\\filtering\\filtering\\filtering\\filtering.csproj",
+        "projectName": "filtering",
+        "projectPath": "C:\\Mentoring\\GitHub\\App\\filtering\\filtering\\filtering\\filtering.csproj",
+        "packagesPath": "C:\\Users\\brydag\\.nuget\\packages\\",
+        "outputPath": "C:\\Mentoring\\GitHub\\App\\filtering\\filtering\\filtering\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\brydag\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Mentoring\\GitHub\\App\\filtering\\filtering\\FilteringMechanism\\FilteringMechanism.csproj": {
+                "projectPath": "C:\\Mentoring\\GitHub\\App\\filtering\\filtering\\FilteringMechanism\\FilteringMechanism.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
               "autoReferenced": true
             }
           },

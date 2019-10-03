@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Linq.Expressions;
-using filtering;
+using FilteringMechanism.FilterOperators.Interfaces;
 
 namespace FilteringMechanism.FilterOperatorsExtensions
 {
@@ -13,7 +13,7 @@ namespace FilteringMechanism.FilterOperatorsExtensions
         public override Expression CreateExpression(Expression left, Expression right)
         {
             const string methodName = "Trim";
-            var methodInfo = left.Type.GetMethod(methodName, System.Type.EmptyTypes);
+            var methodInfo = left.Type.GetMethod(methodName, Type.EmptyTypes);
 
             if (methodInfo == null)
             {

@@ -1,7 +1,7 @@
 ﻿using System.Linq.Expressions;
-using filtering;
+using FilteringMechanism.FilterOperators.Interfaces;
 
-namespace FilteringMechanism.FilterOperators
+namespace FilteringMechanism.FilterOperators.LogicalOperators
 {
     public class AndOperator:IFilteringCollectionOperator
     {

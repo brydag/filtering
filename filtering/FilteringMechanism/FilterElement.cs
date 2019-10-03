@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq;
 using System.Linq.Expressions;
-using filtering;
+using FilteringMechanism.FilterOperators.Interfaces;
 
 namespace FilteringMechanism
 {

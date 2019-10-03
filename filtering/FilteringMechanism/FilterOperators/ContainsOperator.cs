@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Linq.Expressions;
-using filtering;
+using FilteringMechanism.FilterOperators.Interfaces;
 
 namespace FilteringMechanism.FilterOperators
 {

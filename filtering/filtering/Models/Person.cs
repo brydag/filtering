@@ -1,4 +1,4 @@
-﻿namespace filtering
+﻿namespace filtering.Models
 {
     public class Person
     {

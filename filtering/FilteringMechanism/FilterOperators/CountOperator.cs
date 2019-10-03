@@ -1,6 +1,6 @@
-﻿using System;
+﻿using System.Linq;
 using System.Linq.Expressions;
-using filtering;
+using FilteringMechanism.FilterOperators.Interfaces;
 
 namespace FilteringMechanism.FilterOperators
 {
@@ -8,15 +8,13 @@ namespace FilteringMechanism.FilterOperators
     {
         public Expression CreateExpression(Expression left, Expression right)
         {
-            const string methodName = "Count";
-            var countMethod = left.Type.GetMethod(methodName);
+            var methodInfo = typeof(Enumerable).GetMethods()
+                .First(method => method.Name == "Count" && method.GetParameters().Length == 1)
+                .MakeGenericMethod(typeof(object));
 
-            if (countMethod == null)
-            {
-                throw new ArgumentException(methodName, left.Type.Name);
-            }
+            var expressionCall = Expression.Call(methodInfo, left);
 
-            return Expression.Call(left, countMethod, right);
+            return Expression.Equal(expressionCall, right);
         }
     }
 }

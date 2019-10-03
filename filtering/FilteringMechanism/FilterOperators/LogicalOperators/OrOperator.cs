@@ -1,6 +1,7 @@
 ﻿using System.Linq.Expressions;
+using FilteringMechanism.FilterOperators.Interfaces;
 
-namespace FilteringMechanism.FilterOperators
+namespace FilteringMechanism.FilterOperators.LogicalOperators
 {
     public class OrOperator:IFilteringCollectionOperator
     {

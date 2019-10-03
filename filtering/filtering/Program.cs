@@ -1,33 +1,16 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Collections.ObjectModel;
 using System.Linq;
+using filtering.Models;
 using FilteringMechanism;
 using FilteringMechanism.FilterOperators;
+using FilteringMechanism.FilterOperators.LogicalOperators;
 using FilteringMechanism.FilterOperatorsExtensions;
 
 namespace filtering
 {
     class Program
     {
-        //class TissueSample
-        //{
-        //    public TissueType TissueType { get; set; }
-        //    public FixativeUsed FixativeUsed { get; set; }
-        //    public ICollection<TissueType> TissueTypes { get; set; }
-        //    public int Count { get; set; }
-        //}
-
-        //class TissueType
-        //{
-        //    public string Name { get; set; }
-        //}
-
-        //class FixativeUsed
-        //{
-        //    public string Name { get; set; }
-        //}
-
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
@@ -38,7 +21,16 @@ namespace filtering
                 {
                     FirstName = "aa XXx1 dd  c",
                     LastName = "aa yyyy1 v v",
-                    Subordinates =  new Collection<Person>{new Person(),new Person()}
+                    Subordinates =  new List<Person>{
+                        new Person
+                        {
+                            Name = "Some person"
+                        },
+                        new Person
+                        {
+                            Name = "Some person"
+                        }
+                    }
                 },
                 new Employee()
                 {
@@ -49,19 +41,19 @@ namespace filtering
                 {
                     FirstName = "aa xxx2 dd  c",
                     LastName = "aa yyyy1 v v",
-                    Subordinates =  new Collection<Person>
+                    Subordinates =  new List<Person>
                     {
                         new Person
                         {
                             Name = "Some person"
                         },
-                        new Person()
+                        new Person
+                        {
+                            Name = "Some person"
+                        },
                     }
                 },
             }.AsQueryable();
-
-           // sample => (sample.TissueType.Name.Contains("xxx1") || sample.TissueType.Name.Contains("xxx2"))
-             //         && sample.FixativeUsed.Name.Contains("yyyy1")
 
              var filterElement = new FilterCollection<Employee>()
              {
@@ -77,12 +69,12 @@ namespace filtering
                                  Operator = new ToLowerDecorator(new TrimDecorator(new ContainsOperator())),
                                  Value = "xxx1"
                              },
-                             //new FilterElement
-                             //{
-                             //    Property = "Subordinates",
-                             //    Operator = new CountOperator(),
-                             //    Value = 2
-                             //},
+                             new FilterElement
+                             {
+                                 Property = "Subordinates",
+                                 Operator = new CountOperator(),
+                                 Value = 2
+                             },
                          },
                          Operator = new OrOperator()
                      },
@@ -96,10 +88,7 @@ namespace filtering
                  Operator = new AndOperator()
              };
 
-
-            //var tissueSamples = query.Where(condition).ToList();
             var result = query.Filter(filterElement).ToList();
-            var aaa = 1;
         }
     }
 }

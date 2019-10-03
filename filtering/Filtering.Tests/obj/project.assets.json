@@ -1620,6 +1620,19 @@
           "lib/netstandard1.3/System.Xml.XPath.XmlDocument.dll": {}
         }
       },
+      "filtering/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.2",
+        "dependencies": {
+          "FilteringMechanism": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/filtering.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/filtering.dll": {}
+        }
+      },
       "FilteringMechanism/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
@@ -5826,6 +5839,11 @@
         "system.xml.xpath.xmldocument.nuspec"
       ]
     },
+    "filtering/1.0.0": {
+      "type": "project",
+      "path": "../filtering/filtering.csproj",
+      "msbuildProject": "../filtering/filtering.csproj"
+    },
     "FilteringMechanism/1.0.0": {
       "type": "project",
       "path": "../FilteringMechanism/FilteringMechanism.csproj",
@@ -5838,7 +5856,8 @@
       "MSTest.TestAdapter >= 1.4.0",
       "MSTest.TestFramework >= 1.4.0",
       "Microsoft.NET.Test.Sdk >= 16.0.1",
-      "Microsoft.NETCore.App >= 2.2.0"
+      "Microsoft.NETCore.App >= 2.2.0",
+      "filtering >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -5873,6 +5892,9 @@
           "projectReferences": {
             "C:\\Mentoring\\GitHub\\App\\filtering\\filtering\\FilteringMechanism\\FilteringMechanism.csproj": {
               "projectPath": "C:\\Mentoring\\GitHub\\App\\filtering\\filtering\\FilteringMechanism\\FilteringMechanism.csproj"
+            },
+            "C:\\Mentoring\\GitHub\\App\\filtering\\filtering\\filtering\\filtering.csproj": {
+              "projectPath": "C:\\Mentoring\\GitHub\\App\\filtering\\filtering\\filtering\\filtering.csproj"
             }
           }
         }
